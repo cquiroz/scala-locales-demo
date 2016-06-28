@@ -12,8 +12,5 @@ persistLauncher in Compile := true
 persistLauncher in Test := false
 
 libraryDependencies ++= Seq(
-    "com.github.cquiroz" %%% "scalajs-locales" % "0.1.0-SNAPSHOT",
-    "org.querki" %%% "jquery-facade" % "1.0-RC6"
+    "com.github.cquiroz" %%% "scalajs-locales" % "0.1.0-SNAPSHOT"
 )
-
-jsDependencies += "org.webjars" % "jquery" % "2.2.1" / "jquery.js" minified "jquery.min.js"

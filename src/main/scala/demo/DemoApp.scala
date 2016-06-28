@@ -5,7 +5,7 @@ import java.util.Locale
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSExport
-import org.querki.jquery.$
+//import org.querki.jquery.$
 
 import scala.scalajs.locale.LocaleRegistry
 import scala.scalajs.locale.ldml.data.all._
@@ -18,6 +18,7 @@ object DemoApp extends js.JSApp {
     LocaleRegistry.installLocale(ar)
     val tag = ar.languageTag
     val dfs = DecimalFormatSymbols.getInstance(Locale.forLanguageTag(tag))
-    $("playground").append($("div").text(ar.languageTag + " NaN: " + dfs.getNaN))
+    println(ar.languageTag)
+    println("NaN: " + dfs.getNaN)
   }
 }
