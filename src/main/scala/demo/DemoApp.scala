@@ -6,8 +6,8 @@ import java.util.Locale
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSExport
 
-import scala.scalajs.locale.LocaleRegistry
-import scala.scalajs.locale.cldr.data.fi_FI
+import locales.LocaleRegistry
+import locales.cldr.data.fi_FI
 
 @JSExport("DemoApp")
 object DemoApp extends js.JSApp {
