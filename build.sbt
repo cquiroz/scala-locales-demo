@@ -11,9 +11,10 @@ persistLauncher in Compile := true
 
 persistLauncher in Test := false
 
-resolvers +=
-  "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+resolvers += Resolver.sonatypeRepo("snapshots")
+
+//resolvers += Resolver.sonatypeRepo("releases")
 
 libraryDependencies ++= Seq(
-    "com.github.cquiroz" %%% "scala-java-locales" % "0.1.0+29-SNAPSHOT"
+    "com.github.cquiroz" %%% "scala-java-locales" % "0.1.0+29"
 )
