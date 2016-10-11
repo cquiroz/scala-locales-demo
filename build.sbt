@@ -5,7 +5,7 @@ name := "scala-js-locales-demo"
 
 version := "0.1-SNAPSHOT"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.0-RC1"
 
 persistLauncher in Compile := true
 
@@ -16,5 +16,5 @@ resolvers += Resolver.sonatypeRepo("snapshots")
 //resolvers += Resolver.sonatypeRepo("releases")
 
 libraryDependencies ++= Seq(
-    "com.github.cquiroz" %%% "scala-java-locales" % "0.1.0+29"
+    "com.github.cquiroz" %%% "scala-java-locales" % "0.3.0-cldr30"
 )
