@@ -3,7 +3,7 @@ enablePlugins(ScalaJSPlugin)
 
 name := "scala-js-locales-demo"
 
-version := "0.1-SNAPSHOT"
+version := "0.1.0"
 
 scalaVersion := "2.12.1"
 
@@ -14,3 +14,5 @@ persistLauncher in Test := false
 libraryDependencies ++= Seq(
     "io.github.cquiroz" %%% "scala-java-locales" % "0.5.0-cldr30"
 )
+
+jsDependencies += RuntimeDOM
