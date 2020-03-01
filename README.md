@@ -26,6 +26,6 @@ Measured with the command
 ```
 measurements: avg time/size in bytes
 
-* version 0.1.0:
+* version 0.1.0 (scala-java-locales 0.5.0-cldr30):
   * fastOptJS: 28.1s/3748206
   * fullOptJS: 95s/990191
